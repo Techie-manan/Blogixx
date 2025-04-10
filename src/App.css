@@ -4,3 +4,10 @@
   background-color: linear-gradient(to right, #ff7e5f, #feb47b);
 }
 
+.content {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;      /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -8,6 +8,11 @@ function App() {
   return (
     <>
       <Navbar/>
+      <div className="box">
+        <div className="card">
+
+        </div>
+      </div>
     </>
   )
 }

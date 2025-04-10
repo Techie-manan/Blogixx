@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #1b1d4c;
+.nav{
+  background-color: linear-gradient(to right, #ff7e5f, #feb47b);
 }
+

@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <div className="box min-h-screen justify-center m-[3%] flex flex-wrap gap-10">
-        <div className="card w-[45%] h-[42vh] border-2 rounded-4xl p-5 ">
+        <div className="card w-[45%] h-[42vh] border-2 rounded-4xl p-5 bg-gradient-to-r from-white to-blue-300">
           <div className="header flex justify-between items-center">
             <div className='text-2xl font-bold w-[80%] overflow-hidden whitespace-nowrap '>title </div>
             <div className='text-gray-400'>Date</div>

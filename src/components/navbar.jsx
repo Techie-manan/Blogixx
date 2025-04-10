@@ -3,11 +3,11 @@ import React from 'react'
 const navbar = () => {
   return (
     <>
-        <nav className=" nav bg-white shadow-md m-5 px-4 py-3 rounded-full flex items-center justify-between">
+        <nav className=" nav bg-white shadow-md m-5 px-4 py-3 rounded-full flex items-center justify-between bg-gradient-to-r from-white to-blue-500">
       {/* Logo */}
-      <div className="text-2xl font-bold flex text-blue-600">
-        <img src="src\assets\logo.png" width={40} />
-        Blogixx
+      <div className="flex">
+        <img src="src\assets\logo1.png" width={30} />
+        <div className="text-2xl font-bold  text-blue-600 mx-1">Blogixx</div>
       </div>
 
       {/* Search Bar */}

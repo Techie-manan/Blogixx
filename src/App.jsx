@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from './components/navbar.jsx'
+import Form from './components/form.jsx'
 import './App.css'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         </div>
 
       </div>
+      <Form />
     </>
   )
 }

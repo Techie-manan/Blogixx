@@ -21,7 +21,6 @@ function App() {
             <div className='text-gray-400 font-bold'>By name</div>
           </div>
           <div className="content mt-1 text-">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium quos dolores hic amet unde, quia odio maiores ullam tempore labore alias eum blanditiis at officiis, vel enim esse vitae.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eligendi suscipit dolorum excepturi. Qui esse pariatur sit nam nobis cum necessitatibus, eius facere magnam doloribus voluptates similique error eligendi? Mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta libero rem eum pariatur harum magni repellat suscipit et, nam modi saepe fuga architecto, fugiat esse sint tempora. Fugiat, quasi. Est?
           </div>
           <button className='hover:text-blue-600'>Read more..</button>
         </div>

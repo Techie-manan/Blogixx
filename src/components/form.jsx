@@ -4,6 +4,7 @@ import axios from 'axios';
 
 const BlogForm = () => {
   const [formData, setFormData] = useState({
+    id: '',
     name: '',
     title: '',
     genre: '',
@@ -22,7 +23,7 @@ const BlogForm = () => {
 
     const dataToSend = {
       ...formData,
-      date: new Date().toISOString()
+      date: new Date().toISOString().split('T')[0] // Format date as YYYY-MM-DD
     };
 
     try {
@@ -38,6 +39,13 @@ const BlogForm = () => {
     <div className="max-w-xl mx-auto mt-10 p-6 bg-white shadow-md rounded-2xl">
       <h2 className="text-2xl font-bold mb-4 text-center">Write a Blog</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
+      <input
+          name="id"
+          placeholder="Your Unique ID"
+          className="w-full p-2 border rounded"
+          value={formData.id}
+          onChange={handleChange}
+        />
         <input
           name="name"
           placeholder="Your Name"

@@ -1,8 +1,8 @@
 import React from 'react'
 import Form from './form.jsx'
 
-const navbar = () => {
-  const [showForm, setShowForm] = useState(false);
+const navbar = ({onClick}) => {
+  // const [showForm, setShowForm] = useState(false);
   return (
     <>
         <nav className=" nav bg-white shadow-md m-5 px-4 py-3 rounded-full flex items-center justify-between bg-gradient-to-r from-white to-blue-500">
@@ -22,7 +22,7 @@ const navbar = () => {
       </div>
 
       {/* Add Button */}
-      <button className="bg-blue-600 text-white px-10 py-2 rounded-full hover:bg-blue-800 transition"  >
+      <button onClick={onClick} className="bg-blue-600 text-white px-10 py-2 rounded-full hover:bg-blue-800 transition"  >
         Add Blog
       </button>
 

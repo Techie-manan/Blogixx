@@ -36,7 +36,7 @@ function App() {
             <div className='text-gray-400 font-bold'>By {card.name}</div>
           </div>
           <div className="content mt-1 text-">{card.content}</div>
-          <button className='hover:text-blue-600'>Read more..</button>
+          <button className='hover:text-blue-600'>Read more...</button>
         </div>
       })}
       </div>

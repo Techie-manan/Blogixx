@@ -1,5 +1,10 @@
 /* @import "tailwindcss"; */
 
+
+.bg {
+   background: linear-gradient(to right, #32c5d3, white); 
+   /* background-image: url('./src/assets/logo.png');  */
+} 
 .nav{
   background-color: linear-gradient(to right, #ff7e5f, #feb47b);
 }
@@ -10,4 +15,31 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.card {
+  opacity: 0.3;
+  animation: fadeIn 2s forwards;
+}
+
+.trans {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  /* transform: opacity(0.2) scale(0.9); */
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

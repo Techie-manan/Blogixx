@@ -30,6 +30,7 @@ function App() {
 
   return (
     <>
+    <div className='bg'>
       <Navbar onClick={() => setShowForm(true)} />
       {showForm && <Form />}
 
@@ -54,7 +55,7 @@ function App() {
           })}
         </div>
       ) : (
-        <div className="p-8">
+        <div className=" trans p-8">
           <button onClick={handleBack} className="mb-4 text-blue-600 hover:underline">&larr; Back to Blogs</button>
           <div className="border p-6 rounded-xl shadow-xl shadow-blue-500/50">
             <h1 className="text-3xl font-bold mb-2">{selectedBlog.title}</h1>
@@ -65,6 +66,7 @@ function App() {
           </div>
         </div>
       )}
+      </div>
     </>
   )
 }

@@ -1,4 +1,4 @@
-**Launching Soon** 🚀
+# **Launching Soon** 🚀
 # 📝 Blogixx - A Full-Stack Blogging Platform
 
 Blogixx is a full-fledged blogging platform built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and styled beautifully with **Tailwind CSS**. It allows users to create, publish, and read blogs with a clean and responsive interface.

@@ -10,7 +10,7 @@ function App() {
   const [selectedBlog, setSelectedBlog] = useState(null);
 
   const fetchData = async () => {
-    let a = await fetch("blogs.json")
+    let a = await fetch('http://localhost:5000/blogs.json')
     let data = await a.json()
     setCards(data)
     console.log(data)

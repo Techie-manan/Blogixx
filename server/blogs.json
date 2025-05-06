@@ -1,58 +1,58 @@
 [
   {
-    "name": "MANAN ",
-    "title": "tdfh",
-    "genre": "udc",
-    "content": "uurx kuffcnm",
+    "name": "Paul Graham",
+    "title": "The Origin of Wokeness",
+    "genre": "Philosophy",
+    "content": "This sense of the word originated in the 18th century, and its age is an important clue: it shows that although wokeness is a comparatively recent phenomenon, it's an instance of a much older one. There's a certain kind of person who's attracted to a shallow, exacting kind of moral purity, and who demonstrates his purity by attacking anyone who breaks the rules. Every society has these people. All that changes is the rules they enforce. In Victorian England it was Christian virtue. In Stalin's Russia it was orthodox Marxism-Leninism. For the woke, it's social justice.So if you want to understand wokeness, the question to ask is not why people behave this way. Every society has prigs. The question to ask is why our prigs are priggish about these ideas, at this moment. And to answer that we have to ask when and where wokeness began.",
     "id": "129",
-    "date": "2025-04-18"
+    "date": "2025-01-18"
   },
   {
-    "name": "bdjfd",
-    "title": "",
-    "genre": "horror",
-    "content": "lorem ipsum ",
+    "name": "Joel Spolsky",
+    "title": "Making the web better. With blocks!",
+    "genre": "Web Development",
+    "content": "This kind of “insert block” user interface concept is showing up in almost every blogging tool, web editor, note-taking app, and content management system. People like it and it makes sense.We have seem to have standardized on one thing: the / key to insert a new block. Everything else, though, is completely proprietary and non-standard.I thought, wouldn’t it be cool if blocks were interchangeable and reusable across the web? Until now, every app that wants blocks has to implement them from scratch. Want a calendar block? Some kind of fancy Kanban board? Something to embed image galleries? Code it up yourself, buddy. As a result of the non-standardization of blocks, our end-users suffer. If someone is using my blog engine, they can only use those blocks that I had time to implement. Those blocks may be pretty basic or incomplete. Users might want to use a fancier block that they saw in WordPress or Medium or Notion, but my editor doesn’t have it. Blocks can’t be shared or moved around very easily, and our users are limited to the features and capabilities that we had time to re-implement.To fix this, we’re going to create a protocol called the Block Protocol.It’s open, free, non-proprietary, we want it to be everywhere on the web.It’s just a protocol that embedding applications can use to embed blocks. Any block can be used in any embedding application if they all follow the protocol.Our hope is that this will make life much easier for app developers to support a huge variety of block types. At the same time, anyone can develop a block once and have it work in any blog platform, note-taking app, or content management system. It is all 100% free, open, and any sample code we develop showing how to use the protocol will be open-source. ",
     "id": "tfi",
-    "date": "2025-04-18"
+    "date": "2025-02-08"
   },
   {
-    "name": "Akshay",
-    "title": "dont know",
-    "genre": "i no",
-    "content": "lorem ipsum",
+    "name": "Naval Ravikant",
+    "title": "Vitalik: Ethereum",
+    "genre": "Blockchain",
+    "content": "A blockchain you can build any app on top of Naval: Ethereum came out to the world in 2014. If I remember correctly, you’d been developing it for a few years before that. There was a public sale, a lot of people got involved, and then in 2017 there was a boom around people building assets on top of Ethereum, different kinds of coins. Then, of course, gaming, NFTs, DeFi, and all of those things came along. Let’s go through the evolution of Ethereum. What does Ethereum do at a core level? What does it do well? And today, what does it do poorly? What does it need to get better at? Vitalik: I think of Ethereum as a general purpose blockchain. So instead of being a blockchain for one application, it’s a blockchain that you can build any application on top of. The way that you do this on Ethereum is you write a piece of code and you create a digital transaction that contains that piece of code and publishes it. When you publish this transaction and that transaction gets included into a block on the blockchain, this creates an object called a “contract.” This is a virtual object that the blockchain keeps track of. So a contract is an object that contains a piece of code. Now the blockchain has this object that has a piece of code and that is like a little application that the Ethereum blockchain maintains from that point forward. Anyone after that point can send another transaction that says, “I want to talk to this object.” So step one, I create a transaction that creates this object. We’ll call that object X. Then step two, you want to use my application, so you send the transaction, and in your transaction you say, “I want to talk to smart contract X, and here’s a little piece of data that says what I want to do with that application.” When that transaction gets coded in a block, the piece of code that I first published runs, taking as input the data from your transaction, and interprets it in whatever way it wants. We can make this more concrete with an example.Let’s say I have a company and I want to issue shares on the blockchain. I am going to create a transaction that contains a program. The rules of that program are going to say, “Well, what can you do with shares?” We’ll just say you can transfer your shares to someone else and you can vote, right? The program is going to interpret any data that it sees either as an instruction to transfer your shares to someone else or as an instruction to make a vote. I publish this transaction, and that initializes the whole thing. As part of that transaction, I might say, “Naval has 50 shares, Haseeb has 100 shares and I have 25 shares.” So now there is this thing on the blockchain and it has a piece of code. It has its own little memory that says, “I have 25, Haseeb has 100 and Naval has 50,” right? If Naval is feeling generous and wants to give half his shares to me, he is going to create a transaction. And that transaction is going to have some data. It’s going to encode this idea that I, being Naval, want to send 25 of my shares to Vitalik. So you create a transaction that encodes this and send it to the network, and it gets included into a block. Once it gets included, the piece of code runs. The piece of code sees the transaction and says, “OK, clearly I have to transfer 25 shares from Naval to Vitalik. Before, Naval had 50, so I’m going to subtract 25 and now Naval has 25. Before Vitalik had 25, now Vitalik has 50. I’m going to write down that Vitalik has 50 now. Good.” And that’s it. The transaction got processed.",
     "id": "45684",
     "date": "2025-04-18"
   },
   {
     "id": "209",
-    "name": "Akshay51772",
-    "title": "goated",
-    "genre": "kohli",
-    "content": "lorem ipsum",
-    "date": "2025-04-18"
+    "name": "Paul Graham",
+    "title": "Founder Mode",
+    "genre": "Business",
+    "content": "At a YC event last week Brian Chesky gave a talk that everyone who was there will remember. Most founders I talked to afterward said it was the best they'd ever heard. Ron Conway, for the first time in his life, forgot to take notes. I'm not going to try to reproduce it here. Instead I want to talk about a question it raised.The theme of Brian's talk was that the conventional wisdom about how to run larger companies is mistaken. As Airbnb grew, well-meaning people advised him that he had to run the company in a certain way for it to scale. Their advice could be optimistically summarized as \"hire good people and give them room to do their jobs.\" He followed this advice and the results were disastrous. So he had to figure out a better way on his own, which he did partly by studying how Steve Jobs ran Apple. So far it seems to be working. Airbnb's free cash flow margin is now among the best in Silicon Valley.The audience at this event included a lot of the most successful founders we've funded, and one after another said that the same thing had happened to them. They'd been given the same advice about how to run their companies as they grew, but instead of helping their companies, it had damaged them. Why was everyone telling these founders the wrong thing? That was the big mystery to me. And after mulling it over for a bit I figured out the answer: what they were being told was how to run a company you hadn't founded — how to run a company if you're merely a professional manager. But this m.o. is so much less effective that to founders it feels broken. There are things founders can do that managers can't, and not doing them feels wrong to founders, because it is.",
+    "date": "2025-01-28"
   },
   {
     "id": "9372",
-    "name": "ewdsd",
-    "title": "ndhfufi",
-    "genre": "mkfurnn ",
-    "content": "lorem ipsum",
+    "name": "Joel Spolsky",
+    "title": "HASH: a free, online platform for modeling the world",
+    "genre": "Web Development",
+    "content": "Sometimes when you’re trying to figure out the way the world works, basic math is enough to get you going. If we increase the hot water flow by x, the temperature of the mixture goes up by y. Sometimes you’re working on something that’s just too complicated for that, and you can’t even begin to guess how the inputs affect the outputs. At the warehouse, everything seems to go fine when you have less than four employees, but when you hit five employees, they get in each others’ way so much that the fifth employee effectively does no additional work. You may not understand the relationship between the number of employees and the throughput of the warehouse, but you definitely know what everybody is doing. If you can imagine writing a little bit of JavaScript code to simulate the behavior of each of your workers, you can run a simulation and see what actually happens. You can tweak the parameters and the rules the employees follow to see how it would help, and you can really gain some traction understanding, and then solving, very complex problems. That’s what hash.ai is all about. Read Dei’s launch blog post, then try building your own simulations!",
     "date": "2025-04-19"
   },
   {
-    "name": "",
-    "title": "",
-    "genre": "",
-    "content": "lorem",
+    "name": "Paul Graham",
+    "title": "Alien Truth",
+    "genre": "Outer Space",
+    "content": "If there were intelligent beings elsewhere in the universe, they'd share certain truths in common with us. The truths of mathematics would be the same, because they're true by definition. Ditto for the truths of physics; the mass of a carbon atom would be the same on their planet. But I think we'd share other truths with aliens besides the truths of math and physics, and that it would be worthwhile to think about what these might be. For example, I think we'd share the principle that a controlled experiment testing some hypothesis entitles us to have proportionally increased belief in it. It seems fairly likely, too, that it would be true for aliens that one can get better at something by practicing. We'd probably share Occam's razor. There doesn't seem anything specifically human about any of these ideas. We can only guess, of course. We can't say for sure what forms intelligent life might take. Nor is it my goal here to explore that question, interesting though it is. The point of the idea of alien truth is not that it gives us a way to speculate about what forms intelligent life might take, but that it gives us a threshold, or more precisely a target, for truth. If you're trying to find the most general truths short of those of math or physics, then presumably they'll be those we'd share in common with other forms of intelligent life. Alien truth will work best as a heuristic if we err on the side of generosity. If an idea might plausibly be relevant to aliens, that's enough. Justice, for example. I wouldn't want to bet that all intelligent beings would understand the concept of justice, but I wouldn't want to bet against it either. The idea of alien truth is related to Erdos's idea of God's book. He used to describe a particularly good proof as being in God's book, the implication being (a) that a sufficiently good proof was more discovered than invented, and (b) that its goodness would be universally recognized. If there's such a thing as alien truth, then there's more in God's book than math. What should we call the search for alien truth? The obvious choice is \"philosophy.\" Whatever else philosophy includes, it should probably include this. I'm fairly sure Aristotle would have thought so. One could even make the case that the search for alien truth is, if not an accurate description of philosophy, a good definition for it. I.e. that it's what people who call themselves philosophers should be doing, whether or not they currently are. But I'm not wedded to that; doing it is what matters, not what we call it.",
     "id": "93",
     "date": "2025-04-19"
   },
   {
     "id": "12",
-    "name": "",
-    "title": "gold",
-    "genre": "",
-    "content": "loremm",
+    "name": "Joel Spolsky",
+    "title": "Progress on the Block Protocol",
+    "genre": " Web Development",
+    "content": "Since the 1990s, the web has been a publishing place for human-readable documents. Documents published on the web are in HTML. HTML has a little bit of structure, for example, “here is a paragraph” or “emphasize this word.” Then you stir in some CSS, which adds some pretty decorations to the structure, saying things like: make those paragraphs have tiny gray sans-serif text! And then people think you are hip. Unless they are older, and they can’t read your tiny gray words, so they give up on you. That’s “structure,” as far as it goes, on the web. Imagine, for example, that you mention a book on the web.\nGoodnight Moon\nby Margaret Wise Brown\nIllustrated by Clement Hurd\nHarper & Brothers, 1947\nISBN 0-06-443017-0 \nThere’s not much structure there. A naive computer program reading this web page might not realize I was even mentioning a book. All I did was make the title bold. So, also since the 1990s, people have realized that we can make the web a much more useful place to publish information if we applied a bit more structure. As early as 1999, Tim Berners-Lee was writing about the Semantic Web: “I have a dream for the Web [in which computers] become capable of analyzing all the data on the Web – the content, links, and transactions between people and computers. A ‘Semantic Web’, which makes this possible, has yet to emerge, but when it does, the day-to-day mechanisms of trade, bureaucracy and our daily lives will be handled by machines talking to machines. The ‘intelligent agents’ people have touted for ages will finally materialize.” Tim Berners-Lee, Weaving The Web, 1999 HarperSanFrancisco (Chapter 12) Using the Semantic Web you might publish a book title with a lot more detail that makes it computer-readable. To do this, you would probably start by going to schema.org and looking up their idea of a book. Then you could use one of a number of formats, like RDF or JSON-LD, to add additional markup to your HTML saying “hey! here’s a book!” Ok, well, doing that is kinda hard to figure out, and, to be honest, it’s homework. Once your beautiful blog post is published and human-readable, it’s hard to gather the mental energy to figure out how to add the additional fancy markups that will make your web page computer-readable, and, unless there is already a computer reading your web pages, at this point, you usually give up. So, yeah. That was 1999, and not much progress has been made and there is very little of this semantic markup in the wild. Well. We would like to fix this, because human progress depends on getting more and more information in formats that are readily accessible, both by regular humans, their dumb A.I. li’l sibs, and your more traditional computer programs.",
     "date": "2025-04-19"
   }
 ]

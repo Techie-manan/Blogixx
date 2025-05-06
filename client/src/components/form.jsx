@@ -46,7 +46,7 @@ const BlogForm = () => {
           value={formData.id}
           onChange={handleChange}
         />
-        <input
+        <inputn
           name="name"
           placeholder="Your Name"
           className="w-full p-2 border rounded"
